@@ -10,9 +10,7 @@ public class Device {
     }
 
     public Device(String code, String producer, String type, double price) {
-        this.code = code;
-        this.producer = producer;
-        this.type = type;
+        this(code, producer, type);
         this.price = price;
     }
 
